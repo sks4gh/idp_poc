@@ -1,3 +1,2 @@
-# My Service Docs
-
---8<-- "README.md"
+# idp_poc
+Repo for Backstage POC from Index
