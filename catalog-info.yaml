@@ -9,3 +9,7 @@ spec:
   type: service
   owner: my-team
   lifecycle: production
+  jumbo:
+    criticality: "critical"
+    dataSensitivity: "normal"
+    supportTeam: "group:default/24-7-team"
