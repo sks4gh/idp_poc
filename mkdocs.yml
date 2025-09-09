@@ -1,0 +1,5 @@
+site_name: My Service Docs
+nav:
+  - Home: README.md
+plugins:
+  - techdocs-core
