@@ -1,5 +1,10 @@
 site_name: My Service Docs
+
+# Tell MkDocs where your markdown files live
+docs_dir: .
+
 nav:
   - Home: README.md
+
 plugins:
   - techdocs-core
