@@ -1,0 +1,82 @@
+title: Jumbo Search Platform
+description: >-
+  A Spring Boot microservice providing comprehensive search functionality 
+  for Jumbo's internal teams with MongoDB Atlas Search integration.
+
+baseurl: ""
+url: "https://verbose-parakeet-6voq6ge.pages.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Theme configuration
+theme: just-the-docs
+color_scheme: nil
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s\-/]+/
+  rel_url: true
+  button: false
+
+# Navigation structure
+nav_sort: case_insensitive
+
+# Footer
+footer_content: "Copyright &copy; 2024 Jumbo. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last edit timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+# Enable or disable the site search
+search_enabled: true
+search:
+  button: false
+
+# Aux links for the upper right navigation
+aux_links:
+  "Search Platform on GitHub":
+    - "//github.com/jumbo-supermarkten/search-platform"
+  "Swagger API":
+    - "https://search-platform.internal.prod.cloud.jumbo.com/swagger-ui/index.html#/"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+heading_anchors: true
+
+# Plugin configuration
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'syntax'
