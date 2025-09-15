@@ -1,0 +1,16 @@
+site_name: Search Platform
+site_description: Tech docs for the Search Platform microservice
+docs_dir: docs
+nav:
+  - Overview: index.md
+  - Getting started: getting-started.md
+  - Entities: entities.md
+  - Entries:
+      - entries.md        # the main Entries page
+      - Faceting: faceting.md
+      - Category filter: category-filter.md
+  - Search: search.md
+  - Changelog: changelog.md
+
+plugins:
+  - techdocs-core
